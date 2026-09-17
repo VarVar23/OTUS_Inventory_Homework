@@ -1,0 +1,19 @@
+{
+    "name": "Gameplay.Itemization.Editor",
+    "rootNamespace": "Gameplay.Itemization.Editor",
+    "references": [
+        "GUID:7f5e82a0b1b1f4c4b9e1b1b1b1b1b1b1", 
+        "Gameplay.Itemization.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

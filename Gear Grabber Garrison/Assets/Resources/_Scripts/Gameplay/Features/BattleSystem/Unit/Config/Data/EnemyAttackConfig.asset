@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71210089970d24c5d9cf09235e9a913e, type: 3}
+  m_Name: EnemyAttackConfig
+  m_EditorClassIdentifier: Gameplay::AttackConfig
+  Type: 1
+  MinDamage: 20
+  MaxDamage: 40
+  AttackRange: 4
+  AttackSpeed: 4
+  Cooldown: 1
+  Crit: 0
+  AttackAnimationDuration: 0.5
+  StunChance: 0
+  StunDuration: 2

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cc8220198e64f25a32f8ae69db7174, type: 3}
+  m_Name: Player-Config
+  m_EditorClassIdentifier: Gameplay::UnitConfig
+  Name: Orc
+  Prefab: {fileID: 7905269653522555638, guid: e713f1baebc4f4004916cee7e15b98b7, type: 3}
+  RespawnDelay: 10
+  SuprimTarget: {x: 0, y: 0, z: 0}
+  MoveConfig: {fileID: 11400000, guid: 36a31eff7757c48b48715ee027f0482d, type: 2}

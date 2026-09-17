@@ -1,0 +1,78 @@
+{
+    "AttributeId": "ATTR_HEALTH_BOOST",
+    "ValueKeys": [
+        "BonusHP",
+        "RevertHP"
+    ],
+    "Levels": [
+        {
+            "Level": 1,
+            "Cost": 50,
+            "Values": [
+                {
+                    "Key": "BonusHP",
+                    "Value": 50
+                },
+                {
+                    "Key": "RevertHP",
+                    "Value": -50
+                }
+            ]
+        },
+        {
+            "Level": 2,
+            "Cost": 500,
+            "Values": [
+                {
+                    "Key": "BonusHP",
+                    "Value": 100
+                },
+                {
+                    "Key": "RevertHP",
+                    "Value": -100
+                }
+            ]
+        }
+    ],
+    "RuleChains": [
+        {
+            "Trigger": 0,
+            "Steps": [
+                {
+                    "Type": 0,
+                    "ValueKey": "BonusHP",
+                    "TargetStat": 0,
+                    "Mod": 0,
+                    "Effect": 0,
+                    "DescriptionTemplate": "+{1} Maximum health."
+                }
+            ]
+        },
+        {
+            "Trigger": 1,
+            "Steps": [
+                {
+                    "Type": 0,
+                    "ValueKey": "RevertHP",
+                    "TargetStat": 0,
+                    "Mod": 0,
+                    "Effect": 0,
+                    "DescriptionTemplate": ""
+                }
+            ]
+        }
+    ],
+    "Naming": {
+        "Prefixes": [
+            "Sturdy",
+            "Durable",
+            "Healthy",
+            "Vigorous"
+        ],
+        "Postfixes": [
+            "of the Boar",
+            "of Fortitude",
+            "of Vitality"
+        ]
+    }
+}

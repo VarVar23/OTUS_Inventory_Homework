@@ -1,0 +1,32 @@
+{
+    "BlueprintId": "SIMPLE_HEALTH_ITEM_TEST",
+    "AttributeLevelBudget": 2,
+    "ForceFullBudget": false,
+    "TypeWeights": [
+        {
+            "Type": 1,
+            "Weight": 1.0
+        },
+        {
+            "Type": 2,
+            "Weight": 1.0
+        },
+        {
+            "Type": 4,
+            "Weight": 1.0
+        }
+    ],
+    "Slots": [
+        {
+            "SlotName": "Defensive Slot",
+            "MinAllowedLevel": 1,
+            "MaxAllowedLevel": 2,
+            "PossibleAttributes": [
+                {
+                    "AttributeId": "ATTR_HEALTH_BOOST",
+                    "Weight": 1.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e887624dea344fe8bb2724b3643a0b1, type: 3}
+  m_Name: New_BattleScenario
+  m_EditorClassIdentifier: Gameplay::BattleScenario
+  PlayerArmy: {fileID: 11400000, guid: 624ea9cb35cdf4d4481303ee4d6791e5, type: 2}
+  Waves: {fileID: 11400000, guid: fa950e5d207fe4db3a04f9d42c57fefc, type: 2}
+  IntervalBetweenWaves: 5

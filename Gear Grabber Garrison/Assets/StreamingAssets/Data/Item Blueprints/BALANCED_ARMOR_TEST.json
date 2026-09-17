@@ -1,0 +1,47 @@
+{
+    "BlueprintId": "BALANCED_ARMOR_TEST",
+    "AttributeLevelBudget": 3,
+    "ForceFullBudget": true,
+    "TypeWeights": [
+        {
+            "Type": 3,
+            "Weight": 1.0
+        },
+        {
+            "Type": 1,
+            "Weight": 1.0
+        },
+        {
+            "Type": 2,
+            "Weight": 1.0
+        },
+        {
+            "Type": 4,
+            "Weight": 1.0
+        }
+    ],
+    "Slots": [
+        {
+            "SlotName": "Health Slot",
+            "MinAllowedLevel": 1,
+            "MaxAllowedLevel": 2,
+            "PossibleAttributes": [
+                {
+                    "AttributeId": "ATTR_HEALTH_BOOST",
+                    "Weight": 1.0
+                }
+            ]
+        },
+        {
+            "SlotName": "Message Slot",
+            "MinAllowedLevel": 1,
+            "MaxAllowedLevel": 1,
+            "PossibleAttributes": [
+                {
+                    "AttributeId": "ATTR_DISPLAY_EQUIP_MSG",
+                    "Weight": 1.0
+                }
+            ]
+        }
+    ]
+}

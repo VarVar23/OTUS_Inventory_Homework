@@ -1,0 +1,24 @@
+{
+    "name": "Gameplay.Integration",
+    "rootNamespace": "Gameplay.Integration",
+    "references": [
+        "Gameplay.Itemization.Runtime",
+        "Gameplay.Inventory",
+        "Currency",
+        "Zenject",
+        "Gameplay.Economy",
+        "Gameplay.BattleSystem",
+        "UniTask",
+        "Gameplay.TimeSystem",
+        "Gameplay.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

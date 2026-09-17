@@ -1,0 +1,46 @@
+{
+    "BlueprintId": "STUNNING_WEAPON_TEST",
+    "AttributeLevelBudget": 3,
+    "ForceFullBudget": false,
+    "TypeWeights": [
+        {
+            "Type": 0,
+            "Weight": 1.0
+        }
+    ],
+    "Slots": [
+        {
+            "SlotName": "Health Slot",
+            "MinAllowedLevel": 1,
+            "MaxAllowedLevel": 1,
+            "PossibleAttributes": [
+                {
+                    "AttributeId": "ATTR_HEALTH_BOOST",
+                    "Weight": 1.0
+                }
+            ]
+        },
+        {
+            "SlotName": "Stun Slot",
+            "MinAllowedLevel": 1,
+            "MaxAllowedLevel": 1,
+            "PossibleAttributes": [
+                {
+                    "AttributeId": "ATTR_STUN_ON_ATTACK",
+                    "Weight": 1.0
+                }
+            ]
+        },
+        {
+            "SlotName": "Debug Slot",
+            "MinAllowedLevel": 1,
+            "MaxAllowedLevel": 1,
+            "PossibleAttributes": [
+                {
+                    "AttributeId": "ATTR_DISPLAY_EQUIP_MSG",
+                    "Weight": 1.0
+                }
+            ]
+        }
+    ]
+}

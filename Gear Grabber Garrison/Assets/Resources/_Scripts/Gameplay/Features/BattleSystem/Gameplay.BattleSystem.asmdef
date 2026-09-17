@@ -1,0 +1,17 @@
+{
+    "name": "Gameplay.BattleSystem",
+    "rootNamespace": "Gameplay.BattleSystem",
+    "references": [
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:04377f3c85bf55e458f0c324e0d23b02"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

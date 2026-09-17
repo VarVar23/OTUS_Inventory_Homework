@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b01fb34a209f4dde96c16511aa3220f, type: 3}
+  m_Name: Army_Liches
+  m_EditorClassIdentifier: Gameplay::ArmyConfig
+  UnitPrefab: {fileID: 8312363724520037634, guid: f2c6f0a84328e440481b3250497c4415, type: 3}
+  UnitCount: 10
+  UnitAttributesConfig: {fileID: 11400000, guid: 42c19d64f520f4d0b9dae272c6755b46, type: 2}
+  SpawnPoint: {fileID: 0}
+  TargetPoint: {fileID: 154292, guid: 889ca6448cbd11b4a9fd4511513f21ac, type: 3}
+  SpawnMode: 0
+  SpawnInterval: 10
+  SpawnSpreadX: 1
+  CanRespawn: 0
+  RespawnDelay: 3
+  UnitOverrides: []
+  SurviveTime: 0

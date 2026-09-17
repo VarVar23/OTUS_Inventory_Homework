@@ -1,0 +1,18 @@
+{
+    "TableId": "TEST_DROP_TABLE",
+    "NoItemDropWeight": 1.0,
+    "PotentialDrops": [
+        {
+            "BlueprintId": "SIMPLE_HEALTH_ITEM_TEST",
+            "Weight": 1.0
+        },
+        {
+            "BlueprintId": "STUNNING_WEAPON_TEST",
+            "Weight": 2.0
+        },
+        {
+            "BlueprintId": "BALANCED_ARMOR_TEST",
+            "Weight": 1.0
+        }
+    ]
+}

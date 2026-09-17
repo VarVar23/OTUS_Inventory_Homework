@@ -1,0 +1,140 @@
+{
+    "Mappings": [
+        {
+            "BaseName": "Plate",
+            "SpritePath": "Sprites/Itemization/icons/chestpiece/plate"
+        },
+        {
+            "BaseName": "Sword",
+            "SpritePath": "Sprites/Itemization/icons/weapon/sword"
+        },
+        {
+            "BaseName": "Mace",
+            "SpritePath": "Sprites/Itemization/icons/weapon/mace"
+        },
+        {
+            "BaseName": "Axe",
+            "SpritePath": "Sprites/Itemization/icons/weapon/axe"
+        },
+        {
+            "BaseName": "Bow",
+            "SpritePath": "Sprites/Itemization/icons/weapon/bow"
+        },
+        {
+            "BaseName": "Dagger",
+            "SpritePath": "Sprites/Itemization/icons/weapon/dagger"
+        },
+        {
+            "BaseName": "Spear",
+            "SpritePath": "Sprites/Itemization/icons/weapon/spear"
+        },
+        {
+            "BaseName": "Hammer",
+            "SpritePath": "Sprites/Itemization/icons/weapon/hammer"
+        },
+        {
+            "BaseName": "Staff",
+            "SpritePath": "Sprites/Itemization/icons/weapon/staff"
+        },
+        {
+            "BaseName": "Claws",
+            "SpritePath": "Sprites/Itemization/icons/weapon/claws"
+        },
+        {
+            "BaseName": "Scythe",
+            "SpritePath": "Sprites/Itemization/icons/weapon/scythe"
+        },
+        {
+            "BaseName": "Helm",
+            "SpritePath": "Sprites/Itemization/icons/helmet/helm"
+        },
+        {
+            "BaseName": "Coif",
+            "SpritePath": "Sprites/Itemization/icons/helmet/coif"
+        },
+        {
+            "BaseName": "Casque",
+            "SpritePath": "Sprites/Itemization/icons/helmet/casque"
+        },
+        {
+            "BaseName": "Mask",
+            "SpritePath": "Sprites/Itemization/icons/helmet/mask"
+        },
+        {
+            "BaseName": "Greathelm",
+            "SpritePath": "Sprites/Itemization/icons/helmet/greathelm"
+        },
+        {
+            "BaseName": "Circlet",
+            "SpritePath": "Sprites/Itemization/icons/helmet/circlet"
+        },
+        {
+            "BaseName": "Gauntlets",
+            "SpritePath": "Sprites/Itemization/icons/gloves/gauntlets"
+        },
+        {
+            "BaseName": "Mittens",
+            "SpritePath": "Sprites/Itemization/icons/gloves/mittens"
+        },
+        {
+            "BaseName": "Gloves",
+            "SpritePath": "Sprites/Itemization/icons/gloves/gloves"
+        },
+        {
+            "BaseName": "Pads",
+            "SpritePath": "Sprites/Itemization/icons/gloves/pads"
+        },
+        {
+            "BaseName": "Bracers",
+            "SpritePath": "Sprites/Itemization/icons/gloves/bracers"
+        },
+        {
+            "BaseName": "Wraps",
+            "SpritePath": "Sprites/Itemization/icons/gloves/wraps"
+        },
+        {
+            "BaseName": "Cuirass",
+            "SpritePath": "Sprites/Itemization/icons/chestpiece/cuirass"
+        },
+        {
+            "BaseName": "Lamellar",
+            "SpritePath": "Sprites/Itemization/icons/chestpiece/lamellar"
+        },
+        {
+            "BaseName": "Tunic",
+            "SpritePath": "Sprites/Itemization/icons/chestpiece/tunic"
+        },
+        {
+            "BaseName": "Mail",
+            "SpritePath": "Sprites/Itemization/icons/chestpiece/mail"
+        },
+        {
+            "BaseName": "Vest",
+            "SpritePath": "Sprites/Itemization/icons/chestpiece/vest"
+        },
+        {
+            "BaseName": "Greaves",
+            "SpritePath": "Sprites/Itemization/icons/legs/greaves"
+        },
+        {
+            "BaseName": "Leggings",
+            "SpritePath": "Sprites/Itemization/icons/legs/leggings"
+        },
+        {
+            "BaseName": "Sabatons",
+            "SpritePath": "Sprites/Itemization/icons/legs/sabatons"
+        },
+        {
+            "BaseName": "Breeches",
+            "SpritePath": "Sprites/Itemization/icons/legs/breeches"
+        },
+        {
+            "BaseName": "Boots",
+            "SpritePath": "Sprites/Itemization/icons/legs/boots"
+        },
+        {
+            "BaseName": "Treads",
+            "SpritePath": "Sprites/Itemization/icons/legs/treads"
+        }
+    ]
+}

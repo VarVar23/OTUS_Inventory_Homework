@@ -1,0 +1,68 @@
+{
+    "Definitions": [
+        {
+            "Type": 0,
+            "BaseValue": 150,
+            "Names": [
+                "Sword",
+                "Mace",
+                "Axe",
+                "Bow",
+                "Dagger",
+                "Spear",
+                "Hammer",
+                "Staff",
+                "Claws",
+                "Scythe"
+            ]
+        },
+        {
+            "Type": 1,
+            "BaseValue": 80,
+            "Names": [
+                "Helm",
+                "Coif",
+                "Casque",
+                "Mask",
+                "Greathelm",
+                "Circlet"
+            ]
+        },
+        {
+            "Type": 2,
+            "BaseValue": 60,
+            "Names": [
+                "Gauntlets",
+                "Mittens",
+                "Gloves",
+                "Pads",
+                "Bracers",
+                "Wraps"
+            ]
+        },
+        {
+            "Type": 3,
+            "BaseValue": 120,
+            "Names": [
+                "Cuirass",
+                "Lamellar",
+                "Tunic",
+                "Plate",
+                "Mail",
+                "Vest"
+            ]
+        },
+        {
+            "Type": 4,
+            "BaseValue": 90,
+            "Names": [
+                "Greaves",
+                "Leggings",
+                "Sabatons",
+                "Breeches",
+                "Boots",
+                "Treads"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "AttributeId": "ATTR_STUN_ON_ATTACK",
+    "ValueKeys": [
+        "StunChance",
+        "StunDuration"
+    ],
+    "Levels": [
+        {
+            "Level": 1,
+            "Cost": 100,
+            "Values": [
+                {
+                    "Key": "StunChance",
+                    "Value": 10
+                },
+                {
+                    "Key": "StunDuration",
+                    "Value": 1
+                }
+            ]
+        },
+        {
+            "Level": 2,
+            "Cost": 200,
+            "Values": [
+                {
+                    "Key": "StunChance",
+                    "Value": 20
+                },
+                {
+                    "Key": "StunDuration",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Level": 3,
+            "Cost": 300,
+            "Values": [
+                {
+                    "Key": "StunChance",
+                    "Value": 30
+                },
+                {
+                    "Key": "StunDuration",
+                    "Value": 3
+                }
+            ]
+        }
+    ],
+    "RuleChains": [
+        {
+            "Trigger": 2,
+            "Steps": [
+                {
+                    "Type": 3,
+                    "ValueKey": "StunChance",
+                    "TargetStat": 0,
+                    "Mod": 0,
+                    "Effect": 0,
+                    "DescriptionTemplate": "Has {1}% chance to inflict stun"
+                },
+                {
+                    "Type": 2,
+                    "ValueKey": "StunDuration",
+                    "TargetStat": 0,
+                    "Mod": 0,
+                    "Effect": 2,
+                    "DescriptionTemplate": "with {1}s duration."
+                }
+            ]
+        }
+    ],
+    "Naming": {
+        "Prefixes": [
+            "Concussive",
+            "Weighty",
+            "Heavy",
+            "Paralyzing"
+        ],
+        "Postfixes": [
+            "of Dazing",
+            "of Dizziness",
+            "of Impact",
+            "of the Rock"
+        ]
+    }
+}

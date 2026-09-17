@@ -1,0 +1,28 @@
+{
+    "BlueprintId": "GLASS_CANON_TEST",
+    "AttributeLevelBudget": 2,
+    "ForceFullBudget": true,
+    "TypeWeights": [
+        {
+            "Type": 0,
+            "Weight": 1.0
+        }
+    ],
+    "Slots": [
+        {
+            "SlotName": "Varied Slot",
+            "MinAllowedLevel": 1,
+            "MaxAllowedLevel": 2,
+            "PossibleAttributes": [
+                {
+                    "AttributeId": "ATTR_DISPLAY_EQUIP_MSG",
+                    "Weight": 0.10000000149011612
+                },
+                {
+                    "AttributeId": "ATTR_HEALTH_BOOST",
+                    "Weight": 0.8999999761581421
+                }
+            ]
+        }
+    ]
+}

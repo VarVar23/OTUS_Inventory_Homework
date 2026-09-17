@@ -1,0 +1,64 @@
+{
+    "AttributeId": "ATTR_DISPLAY_EQUIP_MSG",
+    "ValueKeys": [
+        "EquipStatus",
+        "UnequipStatus"
+    ],
+    "Levels": [
+        {
+            "Level": 1,
+            "Cost": 10,
+            "Values": [
+                {
+                    "Key": "EquipStatus",
+                    "Value": 1
+                },
+                {
+                    "Key": "UnequipStatus",
+                    "Value": 0
+                }
+            ]
+        }
+    ],
+    "RuleChains": [
+        {
+            "Trigger": 0,
+            "Steps": [
+                {
+                    "Type": 2,
+                    "ValueKey": "EquipStatus",
+                    "TargetStat": 0,
+                    "Mod": 0,
+                    "Effect": 1,
+                    "DescriptionTemplate": "Should output to console if item is equipped or unequipped."
+                }
+            ]
+        },
+        {
+            "Trigger": 1,
+            "Steps": [
+                {
+                    "Type": 2,
+                    "ValueKey": "UnequipStatus",
+                    "TargetStat": 0,
+                    "Mod": 0,
+                    "Effect": 1,
+                    "DescriptionTemplate": ""
+                }
+            ]
+        }
+    ],
+    "Naming": {
+        "Prefixes": [
+            "Speaking",
+            "Verbose",
+            "Chatty",
+            "Loud"
+        ],
+        "Postfixes": [
+            "of the Parrot",
+            "of Diplomacy",
+            "of Gossip"
+        ]
+    }
+}
